@@ -1,0 +1,35 @@
+It is a basic Pascal compiler -- include some basic features like algebraic operation,if else,while etc
+
+
+Prerequisites:
+	You should have lex and yacc at your computer.
+	And to compile assembly code you must install 
+	
+
+What to do:
+
+	1.Write the commands in terminal
+		lex -l Lexfile.l
+		yacc -d Parser.y
+		g++ lex.yy.c y.tab.c
+		./a.out <input.txt >output.txt
+
+
+
+	2. Find the line in output.txt : In Program --> Start of Production Rule
+		- This means you have successfully created assembly code (These were necessary for me to debug the code)
+	
+	Now upto this point(including the line) delete all
+	now you will have the code and save it as input.asm
+	
+	4)Now Write the following commands in terminal:
+	
+		nasm -f elf input.asm
+		ld -o ouput input.o
+		./output 
+		
+		- You will get the output
+		
+
+NB: I have given a input.txt which outputs a fibonacci number for n = 8
+	

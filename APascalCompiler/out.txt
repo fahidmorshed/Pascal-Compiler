@@ -1,0 +1,57 @@
+syntax error found
+section .data
+
+section .bss
+
+buffer resb 1
+temp resb 10
+
+
+section .text
+
+global _start
+
+_start:
+
+mov eax,1
+mov ebx,0
+int 80h
+mov ecx,0
+
+printFunc:
+
+mov dx,0
+mov bx,10
+div bx
+add dl,30h
+mov [temp+ecx],dl
+inc ecx
+cmp ax,0
+jne printFunc
+
+print:
+dec ecx
+mov al,[temp+ecx]
+mov byte[buffer],al
+
+pusha
+mov eax,4
+mov ebx,1
+mov ecx,buffer
+mov edx,1
+int 80h
+
+popa
+
+cmp ecx,0
+jne print
+
+mov byte[buffer],10
+
+mov eax,4
+mov ebx,1
+mov ecx,buffer
+mov edx,1
+int 80h
+
+ret

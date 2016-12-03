@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1425835375 source:/home/fahid/Documents/Compiler01/main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+
+1426491662 source:/media/fahid/Prison Cell/05. Level-3 Term-1/310 Compiler Sessional/1105021_A1_Mockingbird/main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+

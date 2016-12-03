@@ -1,0 +1,1509 @@
+line 0: KEYWORD "function" found
+
+line 0: "Average" found
+Symbol Table :
+[4]---> < Average, ID >
+
+
+line 0: "(" found
+Symbol Table :
+[0]---> < (, PAREN >
+[4]---> < Average, ID >
+
+
+line 0: "Row" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[4]---> < Average, ID >
+
+
+line 0: ":" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[4]---> < Average, ID >
+[18]---> < :, COLON >
+
+
+line 0: KEYWORD "array" found
+
+line 0: KEYWORD "of" found
+
+line 0: KEYWORD "integer" found
+
+line 0: ")" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[18]---> < :, COLON >
+
+
+line 0: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[18]---> < :, COLON >
+
+
+line 0: KEYWORD "real" found
+
+line 0: ";" found
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 1: KEYWORD "var" found
+
+line 1: "I" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 1: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 1: KEYWORD "integer" found
+
+line 1: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 2: "Temp" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[10]---> < Temp, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 2: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[10]---> < Temp, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 2: KEYWORD "real" found
+
+line 2: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[10]---> < Temp, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 3: KEYWORD "begin" found
+
+line 4: "Temp" found
+"Temp" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[10]---> < Temp, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 4: ":=" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[10]---> < Temp, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 4: "Row" found
+"Row" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[10]---> < Temp, ID >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 4: "[" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 4: "0" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 4: "]" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 4: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 5: "I" found
+"I" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 5: ":=" found
+":=" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 5: "1" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 5: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 6: KEYWORD "while" found
+
+line 6: "I" found
+"I" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 6: "<=" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 6: "High" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 6: "(" found
+"(" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 6: "Row" found
+"Row" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 6: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 6: KEYWORD "do" found
+
+line 7: "Temp" found
+"Temp" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: ":=" found
+":=" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: "Temp" found
+"Temp" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: "+" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: "Row" found
+"Row" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: "[" found
+"[" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: "I" found
+"I" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: "]" found
+"]" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 7: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 8: "I" found
+"I" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 8: ":=" found
+":=" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 8: "I" found
+"I" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 8: "+" found
+"+" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 8: "1" found
+"1" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 8: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "Average" found
+"Average" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: ":=" found
+":=" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "Temp" found
+"Temp" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "/" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "(" found
+"(" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "High" found
+"High" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "(" found
+"(" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "Row" found
+"Row" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "+" found
+"+" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: "1" found
+"1" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 9: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 10: KEYWORD "end" found
+
+line 10: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 12: Comment found: { This program calculates the average of first 100 natural numbers
+and prints it to the console.}
+
+line 14: KEYWORD "program" found
+
+line 14: "Test" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 14: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: KEYWORD "var" found
+
+line 15: "A" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: KEYWORD "array" found
+
+line 15: "[" found
+"[" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: "1" found
+"1" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: ".." found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: "100" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: "]" found
+"]" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 15: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 16: KEYWORD "begin" found
+
+line 17: KEYWORD "write" found
+
+line 17: "(" found
+"(" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: "Average" found
+"Average" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: KEYWORD "of" found
+
+line 17: "100" found
+"100" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: "numbers" found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: "," found
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: "Average" found
+"Average" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: "(" found
+"(" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: "A" found
+"A" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 17: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+line 18: KEYWORD "end" found
+
+line 18: "." found
+Symbol Table :
+[0]---> < (, PAREN >< Row, ID >< .., DOTDOT >
+[1]---> < ), PAREN >
+[3]---> < +, ADDOP >
+[4]---> < Average, ID >< ,, COMMA >
+[5]---> < A, ID >
+[6]---> < ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < 0, NUM >
+[9]---> < 1, NUM >< <=, RELOP >< 100, NUM >
+[10]---> < Temp, ID >
+[11]---> < [, BRACKET >
+[12]---> < Test, ID >
+[13]---> < I, ID >< ], BRACKET >
+[16]---> < High, ID >
+[18]---> < :, COLON >< numbers, ID >
+[19]---> < ;, SEMICOLON >
+
+
+Total number of lines: 18

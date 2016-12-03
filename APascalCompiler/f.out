@@ -1,0 +1,309 @@
+ In identifier_list :ID 
+ In identifier_list ',' ID 
+No Declaration
+
+
+ In identifier_list :ID 
+ In identifier_list ',' ID 
+  standard_type is integer
+standard_type
+This is the declaration
+
+ In identifier_list :ID 
+  standard_type is real
+standard_type
+This is the declaration
+
+ In identifier_list :ID 
+       standard_type is integer
+ARRAY [ num .. num ] of standard_type
+This is the declaration
+
+
+subprogram_declarations empty
+
+    factor -> num value is 3.000000
+numVal is true
+simple_exp -> term
+exp -> simple_exp
+The string is 
+In assignment
+the expression is 
+$1->code 
+The code is mov eax,3
+mov dword[x],eax
+The pointer for x is 0x20724e0
+Before passing the code is mov eax,3
+mov dword[x],eax
+
+
+--------------------
+stmt_list -> stmt
+The code mov eax,3
+mov dword[x],eax
+
+
+    factor -> num value is 10.000000
+numVal is true
+simple_exp -> term
+exp -> simple_exp
+The string is 
+In assignment
+the expression is 
+$1->code 
+The code is mov eax,10
+mov dword[y],eax
+The pointer for y is 0x207c6a0
+Before passing the code is mov eax,10
+mov dword[y],eax
+
+stmt_list -> stmt_list ; stmt
+---------------------------------
+The Code for $1 
+mov eax,3
+mov dword[x],eax
+
+---------------------------------
+The Code for $3 
+mov eax,10
+mov dword[y],eax
+
+
+    factor -> id x
+simple_exp -> term
+  factor -> id y
+simple_exp -> term
+exp -> simple_exp relop simple_exp
+
+  
+    factor -> id x
+simple_exp -> term
+exp -> simple_exp
+The string is 
+variable -> id [ exp ]
+  factor -> id x
+simple_exp -> term
+exp -> simple_exp
+The string is 
+In assignment
+the expression is 
+$1->code 
+The code is mov eax,dword[x]
+mov dword[c],eax
+The pointer for c is 0x206d400
+Before passing the code is mov eax,dword[x]
+mov dword[c],eax
+
+
+--------------------
+stmt_list -> stmt
+The code mov eax,dword[x]
+mov dword[c],eax
+
+	
+       factor -> id x
+simple_exp -> term
+ factor -> num value is 1.000000
+numVal is true
+
+  simple_exp -> simple_exp addop term
+going to add
+temp->code is mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+
+exp -> simple_exp
+The string is mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+
+In assignment
+the expression is mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+
+$1->code 
+The code is mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+mov eax,dword[temp1]
+mov dword[x],eax
+The pointer for x is 0x2095b00
+Before passing the code is mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+mov eax,dword[temp1]
+mov dword[x],eax
+
+stmt_list -> stmt_list ; stmt
+---------------------------------
+The Code for $1 
+mov eax,dword[x]
+mov dword[c],eax
+
+---------------------------------
+The Code for $3 
+mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+mov eax,dword[temp1]
+mov dword[x],eax
+
+
+optional_stmt -> stmt_list
+
+
+compound_stmt  -> begin
+	opt_stmts
+	end
+stmt -> compound_stmt
+stmt -> while exp do stmt
+The pointer is $4->symbol 
+problem finding
+Problem finding1 
+Problem finding2
+stmt_list -> stmt_list ; stmt
+---------------------------------
+The Code for $1 
+mov eax,3
+mov dword[x],eax
+mov eax,10
+mov dword[y],eax
+
+---------------------------------
+The Code for $3 
+mov eax,dword[x]
+mov ebx,dword[y]
+cmp eax,ebx
+jge label1
+
+mov ecx,eax
+push ebx
+
+label2:
+
+pop ebx
+push ebx
+mov ecx,dword[x]
+cmp ecx,ebx
+jge label3
+
+mov eax,dword[x]
+mov dword[c],eax
+mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+mov eax,dword[temp1]
+mov dword[x],eax
+jmp label2
+
+label3:
+pop ebx
+
+label1:
+
+
+
+
+optional_stmt -> stmt_list
+
+
+compound_stmt  -> begin
+	opt_stmts
+	end
+In Program --> Start of Production Rule
+section .data
+
+section .bss
+
+x resd 1
+y resd 1
+f resd 1
+c resd 1
+temp1 resd 1
+buffer resb 1
+temp resb 10
+
+
+section .text
+
+global _start
+
+_start:
+mov eax,3
+mov dword[x],eax
+mov eax,10
+mov dword[y],eax
+mov eax,dword[x]
+mov ebx,dword[y]
+cmp eax,ebx
+jge label1
+
+mov ecx,eax
+push ebx
+
+label2:
+
+pop ebx
+push ebx
+mov ecx,dword[x]
+cmp ecx,ebx
+jge label3
+
+mov eax,dword[x]
+mov dword[c],eax
+mov eax,dword[x]
+add eax,1
+mov dword[temp1],eax
+mov eax,dword[temp1]
+mov dword[x],eax
+jmp label2
+
+label3:
+pop ebx
+
+label1:
+
+
+mov eax,1
+mov ebx,0
+int 80h
+mov ecx,0
+
+printFunc:
+
+mov dx,0
+mov bx,10
+div bx
+add dl,30h
+mov [temp+ecx],dl
+inc ecx
+cmp ax,0
+jne printFunc
+
+print:
+dec ecx
+mov al,[temp+ecx]
+mov byte[buffer],al
+
+pusha
+mov eax,4
+mov ebx,1
+mov ecx,buffer
+mov edx,1
+int 80h
+
+popa
+
+cmp ecx,0
+jne print
+
+mov byte[buffer],10
+
+mov eax,4
+mov ebx,1
+mov ecx,buffer
+mov edx,1
+int 80h
+
+ret

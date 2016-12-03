@@ -1,0 +1,188 @@
+ In identifier_list :ID 
+ In identifier_list ',' ID 
+No Declaration
+
+
+ In identifier_list :ID 
+ In identifier_list ',' ID 
+  standard_type :  integer
+type : standard_type
+This is the declaration
+
+ In identifier_list :ID 
+  standard_type is REAL
+type : standard_type
+This is the declaration
+
+ In identifier_list :ID 
+       standard_type :  integer
+type : ARRAY [ num .. num ] of standard_type
+This is the declaration
+
+
+subprogram declarations :  empty
+
+    factor -> num value is 3.000000
+numVal is true
+term	:	factor
+simple_expression : term
+expression	:	simple_expression
+statement	:	variable ASSIGNOP expression
+The code is mov eax,30328232
+mov dword[x],eax
+statement_list	:	statement
+
+    factor -> num value is 10.000000
+numVal is true
+term	:	factor
+simple_expression : term
+expression	:	simple_expression
+statement	:	variable ASSIGNOP expression
+The code is mov eax,30369640
+mov dword[y],eax
+statement_list	: : statement_list ';' statement
+
+    factor -> ID 
+term	:	factor
+simple_expression : term
+  factor -> ID 
+term	:	factor
+simple_expression : term
+expression -> simple_expression RELOP simple_expression
+
+  
+    factor -> ID 
+term	:	factor
+simple_expression : term
+expression	:	simple_expression
+variable -> id [ expression ]
+  factor -> ID 
+term	:	factor
+simple_expression : term
+expression	:	simple_expression
+statement	:	variable ASSIGNOP expression
+statement_list	:	statement
+	
+       factor -> ID 
+term	:	factor
+simple_expression : term
+ factor -> num value is 1.000000
+numVal is true
+term	:	factor
+
+  simple_expression : simple_expression addop term
+temp->code is mov eax,dword[x]
+add eax,30338584
+mov dword[temp1],eax
+
+expression	:	simple_expression
+statement	:	variable ASSIGNOP expression
+statement_list	: : statement_list ';' statement
+optional_statements	:	statement_list
+
+compound_statement  : BEGIN1
+	optional_statements
+	END
+statement -> compound_statement
+statement : WHILE expression DO statement
+statement_list	: : statement_list ';' statement
+
+optional_statements	:	statement_list
+
+compound_statement  : BEGIN1
+	optional_statements
+	END
+In Program --> Start of Production Rule
+\\\\\\\\\\Assembly Code\\\\\\
+section .data
+
+section .dataseg
+
+c resd 1
+temp1 resd 1
+buffer resb 1
+temp resb 10
+
+
+section .text
+
+global _start
+
+_start:
+mov eax,30328232
+mov dword[x],eax
+mov eax,30369640
+mov dword[y],eax
+mov eax,dword[x]
+mov ebx,dword[y]
+cmp eax,ebx
+jge label1
+
+mov ecx,eax
+push ebx
+
+label2:
+
+pop ebx
+push ebx
+mov ecx,dword[x]
+cmp ecx,ebx
+jge label3
+
+mov eax,dword[x]
+mov dword[c],eax
+mov eax,dword[x]
+add eax,30338584
+mov dword[temp1],eax
+mov eax,dword[temp1]
+mov dword[x],eax
+jmp label2
+
+label3:
+pop ebx
+
+label1:
+
+
+mov eax,1
+mov ebx,0
+int 80h
+mov ecx,0
+
+printFunc:
+
+mov dx,0
+mov bx,10
+div bx
+add dl,30h
+mov [temp+ecx],dl
+inc ecx
+cmp ax,0
+jne printFunc
+
+print:
+dec ecx
+mov al,[temp+ecx]
+mov byte[buffer],al
+
+pusha
+mov eax,4
+mov ebx,1
+mov ecx,buffer
+mov edx,1
+int 80h
+
+popa
+
+cmp ecx,0
+jne print
+
+mov byte[buffer],10
+
+mov eax,4
+mov ebx,1
+mov ecx,buffer
+mov edx,1
+int 80h
+
+ret

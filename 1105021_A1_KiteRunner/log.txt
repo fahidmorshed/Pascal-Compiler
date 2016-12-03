@@ -1,0 +1,725 @@
+line 0: Comment found: {This is a 
+
+program}
+
+line 1: "ERROR :ILL FORMED NUMBER " found
+
+line 2: "ERROR :ILL FORMED NUMBER " found
+
+line 3: "ERROR :ILL FORMED NUMBER " found
+
+line 4: String ""this is a test string"" is found
+
+line 7: KEYWORD "program" found
+
+line 7: KEYWORD "if" found
+
+line 9: String ""this is a
+multi line text string"" is found
+
+line 12: KEYWORD "not" found
+
+line 12: KEYWORD "program" found
+
+line 12: KEYWORD "program" found
+
+line 13: KEYWORD "if" found
+
+line 13: "ififif" found
+Symbol Table :
+[12]---> < ififif, ID >
+
+
+line 14: "var1" found
+Symbol Table :
+[6]---> < var1, ID >
+[12]---> < ififif, ID >
+
+
+line 14: "h1" found
+Symbol Table :
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[12]---> < ififif, ID >
+
+
+line 14: "ERROR :ILL FORMED IDENTIFIER" found
+
+line 14: "_bh2" found
+Symbol Table :
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[11]---> < _bh2, ID >
+[12]---> < ififif, ID >
+
+
+line 14: "_bjf" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[11]---> < _bh2, ID >
+[12]---> < ififif, ID >
+
+
+line 15: "123" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >
+[11]---> < _bh2, ID >
+[12]---> < ififif, ID >
+
+
+line 16: "123.55" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >
+[11]---> < _bh2, ID >
+[12]---> < ififif, ID >
+
+
+line 17: "123.5" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >
+[12]---> < ififif, ID >
+
+
+line 18: "123E5" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >
+[12]---> < ififif, ID >
+[17]---> < 123E5, NUM >
+
+
+line 19: "123.5E5" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >
+[12]---> < ififif, ID >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >
+
+
+line 20: "123E+5" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >
+
+
+line 21: "123.5E+5" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >
+
+
+line 22: "12.45E30.5" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >
+
+
+line 23: "123E-5" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >
+
+
+line 24: "1243.5E-2" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >
+
+
+line 25: "123.4E+10" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >
+
+
+line 26: "123.123E-123.123" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >
+
+
+line 29: String ""This is a single-line quoted string"" is found
+
+line 30: ":" found
+Symbol Table :
+[1]---> < _bjf, ID >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >
+
+
+line 30: ")" found
+Symbol Table :
+[1]---> < _bjf, ID >< ), PAREN >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >
+
+
+line 31: "<" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >
+
+
+line 32: ">" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >
+[2]---> < >, RELOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >
+
+
+line 33: "<=" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >
+[2]---> < >, RELOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >
+
+
+line 34: ">=" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >
+[2]---> < >, RELOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >
+
+
+line 35: "=" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >
+
+
+line 36: "<>" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 37: "+" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >
+[3]---> < +, ADDOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 38: "-" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >
+[3]---> < +, ADDOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 39: "or" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >
+[3]---> < +, ADDOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 40: "*" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 41: "/" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 42: "div" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 43: "mod" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 44: "and" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 45: ":=" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 45: Comment found: {This is an assignment statement}
+
+line 46: "[" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 46: "]" found
+Symbol Table :
+[0]---> < <, RELOP >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 47: "(" found
+Symbol Table :
+[0]---> < <, RELOP >< (, PAREN >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 47: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < <, RELOP >< (, PAREN >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 48: ".." found
+Symbol Table :
+[0]---> < <, RELOP >< (, PAREN >< .., DOTDOT >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 49: "," found
+Symbol Table :
+
+[0]---> < <, RELOP >< (, PAREN >< .., DOTDOT >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >< ,, COMMA >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 50: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < <, RELOP >< (, PAREN >< .., DOTDOT >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >< ,, COMMA >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 51: "." found
+Symbol Table :
+[0]---> < <, RELOP >< (, PAREN >< .., DOTDOT >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >< ,, COMMA >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >< ., DOT >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+
+
+line 52: Comment found: { This program calculates the average of first 100 natural numbers
+and prints it to the console.}
+
+[0]---> < <, RELOP >< (, PAREN >< .., DOTDOT >
+[1]---> < _bjf, ID >< ), PAREN >< =, RELOP >
+[2]---> < >, RELOP >< *, MULOP >
+[3]---> < +, ADDOP >< div, MULOP >
+[4]---> < 123.55, NUM >< 123.5E+5, NUM >< ,, COMMA >
+[5]---> < h1, ID >< -, ADDOP >
+[6]---> < var1, ID >< ., DOT >
+[7]---> < 123.123E-123.123, NUM >< /, MULOP >< and, MULOP >< :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < <=, RELOP >
+[10]---> < 123, NUM >< 123.5, NUM >
+[11]---> < _bh2, ID >< 123E+5, NUM >< >=, RELOP >< [, BRACKET >
+[12]---> < ififif, ID >< 12.45E30.5, NUM >
+[13]---> < ], BRACKET >
+[15]---> < 123E-5, NUM >
+[17]---> < 123E5, NUM >< or, ADDOP >
+[18]---> < 123.5E5, NUM >< 1243.5E-2, NUM >< 123.4E+10, NUM >< :, COLON >< <>, RELOP >
+Total number of lines: 53

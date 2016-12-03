@@ -1,0 +1,1309 @@
+line 0: Comment found: {This is a 
+
+program}
+
+line 2: "111192019" found
+Symbol Table :
+[17]---> < 111192019, NUM >
+
+
+line 3: "a" found
+Symbol Table :
+[17]---> < 111192019, NUM >< a, ID >
+
+
+line 3: ":=" found
+Symbol Table :
+[7]---> < :=, ASSIGNOP >
+[17]---> < 111192019, NUM >< a, ID >
+
+
+line 3: "5.2" found
+Symbol Table :
+[7]---> < :=, ASSIGNOP >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >
+
+
+line 3: "mod" found
+Symbol Table :
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >
+
+
+line 3: "h" found
+Symbol Table :
+[4]---> < h, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >
+
+
+line 5: "4" found
+Symbol Table :
+[4]---> < h, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >
+
+
+line 5: "div" found
+Symbol Table :
+[3]---> < div, MULOP >
+[4]---> < h, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >
+
+
+line 5: "4.3" found
+Symbol Table :
+[3]---> < div, MULOP >
+[4]---> < h, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+
+
+line 7: "3.4E2" found
+Symbol Table :
+[3]---> < div, MULOP >
+[4]---> < h, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >
+
+
+line 8: "2.5E+3" found
+Symbol Table :
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >
+
+
+line 9: "3.4E-3" found
+Symbol Table :
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >
+
+
+line 10: "3E-3" found
+Symbol Table :
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >
+
+
+line 13: KEYWORD "integer" found
+
+line 13: "a" found
+"a" already exists in the table
+
+
+Symbol Table :
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >
+
+
+line 13: "," found
+Symbol Table :
+
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >
+
+
+line 13: "b" found
+Symbol Table :
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+
+
+line 13: "," found
+"," already exists in the table
+
+
+Symbol Table :
+
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+
+
+line 13: "c" found
+Symbol Table :
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 14: "This" found
+Symbol Table :
+[0]---> < This, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 15: "is" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 15: "a" found
+"a" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 15: "multi" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 15: "-" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 15: "line" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >< line, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 15: "quoted" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >< line, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 16: "string" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 16: "." found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "This" found
+"This" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "is" found
+"is" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "a" found
+"a" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "single" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "-" found
+"-" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "line" found
+"line" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "quoted" found
+"quoted" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: "string" found
+"string" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >
+[19]---> < c, ID >
+
+
+line 18: ":" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 18: ")" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >
+[1]---> < ), PAREN >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 19: KEYWORD "if" found
+
+line 19: "(" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 19: "c" found
+"c" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 19: "=" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 19: "c" found
+"c" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 19: "-" found
+"-" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 19: "1" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 19: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 20: "/" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 20: "/" found
+"/" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >
+
+
+line 20: KEYWORD "do" found
+
+line 20: "nothing" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 20: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 20: ")" found
+")" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 21: "d" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 21: ":=" found
+":=" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 21: "d" found
+"d" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 21: "-" found
+"-" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 21: "1" found
+"1" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >
+
+
+line 21: ";" found
+Symbol Table :
+
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 21: Comment found: {This is an assignment statement}
+
+line 23: KEYWORD "array" found
+
+line 23: "[" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 23: "10" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 23: "]" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 23: ":" found
+":" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 23: "hello" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 23: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 26: KEYWORD "program" found
+
+line 26: KEYWORD "begin" found
+
+line 26: KEYWORD "not" found
+
+line 26: KEYWORD "else" found
+
+line 26: KEYWORD "do" found
+
+line 26: KEYWORD "while" found
+
+line 30: "8" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 30: "." found
+"." already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 30: "abc" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >< abc, ID >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >
+
+
+line 30: "ab" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >< abc, ID >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >< ab, ID >
+
+
+line 30: "." found
+"." already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >< abc, ID >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >< ab, ID >
+
+
+line 30: "c" found
+"c" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >< abc, ID >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >< ab, ID >
+
+
+line 30: "888" found
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >< 888, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >< abc, ID >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >< ab, ID >
+
+
+line 30: ";" found
+";" already exists in the table
+
+
+Symbol Table :
+
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >< 888, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >< abc, ID >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >< ab, ID >
+
+
+line 30: "888" found
+"888" already exists in the table
+
+
+Symbol Table :
+[0]---> < This, ID >< is, ID >< (, PAREN >< d, ID >
+[1]---> < ), PAREN >< =, RELOP >< 10, NUM >
+[2]---> < 2.5E+3, NUM >
+[3]---> < div, MULOP >< quoted, ID >
+[4]---> < h, ID >< ,, COMMA >< multi, ID >
+[5]---> < -, ADDOP >
+[6]---> < 3.4E-3, NUM >< ., DOT >
+[7]---> < :=, ASSIGNOP >< /, MULOP >
+[8]---> < mod, MULOP >
+[9]---> < 1, NUM >
+[11]---> < single, ID >< [, BRACKET >
+[12]---> < 4, NUM >< line, ID >< string, ID >
+[13]---> < ], BRACKET >
+[15]---> < hello, ID >
+[16]---> < 3E-3, NUM >< 8, NUM >< 888, NUM >
+[17]---> < 111192019, NUM >< a, ID >< 5.2, NUM >< 4.3, NUM >
+[18]---> < 3.4E2, NUM >< b, ID >< :, COLON >< abc, ID >
+[19]---> < c, ID >< nothing, ID >< ;, SEMICOLON >< ab, ID >
+
+
+Total number of lines: 31
